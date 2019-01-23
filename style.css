@@ -113,13 +113,17 @@ h1,h2,h3,h4,h6{
         flex-direction: column;
         position: absolute;
         top: 83%;
-        right: -3%;
-        width: 107%;
-        height: 800px;
+        right: -111%;
+        width: 108%;
+        height: 100vh;
         z-index: 100;
         background-color: #333333;
         opacity: 0.9;
         border-radius: 5%;
+        transition: right .4s ease;
+    }
+    .menu_control.active{
+       right: -4%;
     }
     .menu_control-bar{
         display: block;
@@ -560,8 +564,6 @@ h1,h2,h3,h4,h6{
         flex-basis: 14%;
         margin-left: 1rem;
     }
-
-
 
 }
 
